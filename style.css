@@ -13,5 +13,5 @@ background-size: cover;
 .bgimg2{
   background-size: cover;
 }
-.bgimg {background-image: url("/assets/images/rings.jpg")}
-.bgimg2 {background-image: url("/assets/images/flowers.jpg")}
+.bgimg {background-image: url("assets/images/rings.jpg")}
+.bgimg2 {background-image: url("assets/images/flowers.jpg")}
