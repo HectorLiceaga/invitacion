@@ -26,6 +26,7 @@ background-size: cover;
 
 :root {
   --dorado: #bfa046; /* Dorado elegante */
+  --bordo: #800020;
 }
 
 .texto-dorado {
@@ -44,4 +45,14 @@ background-size: cover;
 .w3-lobster button, 
 .w3-lobster div {
   font-family: "Lobster", cursive !important;
+}
+
+.texto-bordo {
+  color: var(--bordo);
+}
+
+.boton-bordo {
+  background-color: var(--bordeaux);
+  color: white; /* para que el texto contraste */
+  border: none;
 }
