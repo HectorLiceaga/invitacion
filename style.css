@@ -1,7 +1,11 @@
+body {
+  font-family: "Lobster", cursive !important;
+}
 
-body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
+
 p {line-height: 2}
+
 .bgimg, .bgimg2 {
   min-height: 100%;
   background-position: center;
@@ -13,9 +17,31 @@ background-size: cover;
 .bgimg2{
   background-size: cover;
 }
-.bgimg {background-image: url("assets/images/rings.jpg")}
-.bgimg2 {background-image: url("assets/images/flowers.jpg")}
+.bgimg {background-image: url("assets/images/IMG_4476.jpg")}
+.bgimg2 {background-image: url("assets/images/IMG_4530.jpg")}
 
 .bold{
   font: bold;
+}
+
+:root {
+  --dorado: #bfa046; /* Dorado elegante */
+}
+
+.texto-dorado {
+  color: var(--dorado);
+}
+
+.w3-lobster, 
+.w3-lobster h1, 
+.w3-lobster h2, 
+.w3-lobster h3, 
+.w3-lobster h4, 
+.w3-lobster h5, 
+.w3-lobster h6, 
+.w3-lobster p, 
+.w3-lobster a, 
+.w3-lobster button, 
+.w3-lobster div {
+  font-family: "Lobster", cursive !important;
 }
