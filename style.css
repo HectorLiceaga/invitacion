@@ -1,6 +1,20 @@
-body {
-  font-family: "Lobster", cursive !important;
+@font-face {
+  font-family: 'Ecosmith Script';
+  src: url('assets/fonts/ecosmithscript-regular-webfont.woff2') format('woff2'),
+       url('assets/fonts/ecosmithscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+
+
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+  font-family: 'Ecosmith Script', cursive !important;
+}
+
+
+
 
 body, html {height: 100%}
 
@@ -33,19 +47,6 @@ background-size: cover;
   color: var(--dorado);
 }
 
-.w3-lobster, 
-.w3-lobster h1, 
-.w3-lobster h2, 
-.w3-lobster h3, 
-.w3-lobster h4, 
-.w3-lobster h5, 
-.w3-lobster h6, 
-.w3-lobster p, 
-.w3-lobster a, 
-.w3-lobster button, 
-.w3-lobster div {
-  font-family: "Lobster", cursive !important;
-}
 
 .texto-bordo {
   color: var(--bordo);
@@ -55,4 +56,11 @@ background-size: cover;
   background-color: var(--bordeaux);
   color: white; /* para que el texto contraste */
   border: none;
+}
+
+.bgimg3 {
+  background-image: url("assets/images/IMG_4513.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
 }
