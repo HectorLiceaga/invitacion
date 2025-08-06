@@ -64,3 +64,55 @@ background-size: cover;
   background-position: center;
   min-height: 100%;
 }
+
+
+/* Imagen de fondo */
+.bgimg {
+  background-image: url("assets/images/IMG_4476.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Texto posicionado con precisión */
+.portada-titulo {
+  position: absolute;
+  top: 10%; /* posición vertical */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 90%;
+}
+
+.portada-titulo h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.portada-titulo h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Ajustes móviles */
+@media screen and (max-width: 768px) {
+  .portada-titulo {
+    top: 12%;
+  }
+
+  .portada-titulo h1 {
+    font-size: 2.5em;
+  }
+
+  .portada-titulo h2 {
+    font-size: 1.5em;
+  }
+}
+
+/* Ajustes PC grandes */
+@media screen and (min-width: 1200px) {
+  .portada-titulo {
+    top: 8%;
+  }
+}
